@@ -1,0 +1,68 @@
+.heading{
+    padding-top: 10px;
+    text-align: center;
+}
+
+.login_tab {
+    text-align: center;  
+
+}
+
+.login_tab input{
+    border-radius: 8px;
+    padding: 10px 50px;
+    text-align: center;
+    background-color: rgb(204, 255, 83);
+    color: whitesmoke;
+}
+
+.check {
+    padding-top: 8px; 
+    text-align: center;
+    font-size: small;
+}
+
+.check a{
+    padding-left: 50px;
+}
+
+.submit {
+    padding-top: 8px; 
+    text-align: center;
+}
+
+.submit button{
+    border-radius: 8px;
+    padding: 10px 117px;
+    text-align: center;
+    background-color: hsl(82, 86%, 92%);
+    color: rgb(30, 70, 131)
+}
+
+.submit button:hover{
+    background-color: rgb(213, 243, 184);
+    color: aqua;
+}
+
+.tail{
+    text-align: center;
+    font-size: small;
+}
+
+body 
+{
+  font-family:Arial; 
+  background: linear-gradient(to right, #155799, #159957); 
+  color:whitesmoke;
+}
+
+form{
+    width: 25rem;
+    margin: auto;
+    margin-top: 150px;
+    color:whitesmoke;
+    backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(11, 15, 15, 0.582);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}
