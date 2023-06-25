@@ -1,0 +1,41 @@
+.heading {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: rgb(55, 0, 255);
+    color: rgb(255, 251, 0);
+}
+
+.button{
+    overflow: auto;
+    padding-top: 5px;
+}
+
+.button button{
+    float: right;
+    color: rgb(0, 255, 170);
+    font-family: Times New Roman;
+    font-size: 18px;
+    margin-left: 4px;
+    margin-right: 4px;
+    padding: 20px 100px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.button button:hover{
+    background-color: rgb(255, 192, 250);
+}
+
+.button button:active{
+    background-color: rgb(255, 192, 250);
+}
+
+body 
+{
+  background: linear-gradient(to right, #4493e2, #f6ff78); 
+  color:rgb(18, 42, 107);
+}
+
